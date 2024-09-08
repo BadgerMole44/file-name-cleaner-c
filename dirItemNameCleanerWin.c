@@ -7,14 +7,6 @@ int rename_items(Directory *dir);
 
 /*
 Purpose: Cleans the names of all files in a directory such that all names are: 1) lower case, 2) white spaces are converted to underscores.
-Description: 
-    1) executable is called on windowsOS.
-    2) takes one param PATH to dir. prompt and exit.
-    3) validates the argument. 
-    4) reads names of items in the dir at PATH to an array.
-    5) reads the type of item (file or dir) to a separate array.
-    6) looks through the list of names and creates a new list of clean names
-    7) displays current name, clean name, and file type or messages that all names are already clean.
 */
 int main (int argc, const char *argv[]) {  // *argv[] is an array of pointers to chars
     int result;
